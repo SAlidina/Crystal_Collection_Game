@@ -1,0 +1,90 @@
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px
+  
+}
+h1{
+    font-weight: bold;
+    font-size: 32px;
+    color: darkgreen;
+}
+.bg { 
+  /* The image used */
+  background-image: url("assets/island.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.main-container {
+    position: relative;
+    z-index: 0;
+    padding: 5px;
+    text-align: center;
+    background-color: beige;
+    width: 760px;
+    height: 50px;
+    margin-left: 60px;
+    
+}
+
+.instruction-container
+ {
+    padding: 20px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: beige;
+    
+}
+.header-container{
+    height: 50px;
+    margin-top: 8px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+img {
+   width: 18%;
+    height: 18%;
+    float: left;
+    background-color: white;
+    margin-left: 8px;
+}
+.buttons {
+    background-color: white;
+}
+.currentScore-box{
+    height: 125px;
+    width: 150px;
+    margin-top: 170px;
+    text-align: center;
+    background-color: lightsalmon;
+    padding: 10px;
+}
+.targetScore-box{
+    height: 125px;
+    width: 150px;
+    margin-right: 8px;
+    text-align: center;
+    background-color: lightsalmon;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+.loss-box,
+.wins-box{
+    height: 50px;
+    width: 260px;
+    background-color: lightsalmon;
+    float: left;
+    padding: 12px;
+    margin-left: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
